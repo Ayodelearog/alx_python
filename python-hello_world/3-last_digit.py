@@ -1,6 +1,6 @@
 import random
 number = random.randint(-10000, 10000)
-numList = list(map(int, str(number)))
+numList = [int(i) for i in str(number)]
 def lastDigitPrinter(number):
     firstWords = "Last digit of"
     lastDigit = numList[-1]
