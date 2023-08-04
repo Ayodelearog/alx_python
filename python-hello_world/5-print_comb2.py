@@ -1,5 +1,5 @@
 for number in range(100):
     if (number < 10):
-        print("0"+"{},".format(number), end=" ")
+        print("0"+"{}".format(number), sep=",", end=" ")
     else:
-        print("{},".format(number), end=" ")
+        print("{}".format(number), sep=",", end=" ")
