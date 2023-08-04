@@ -1,2 +1,4 @@
 for number in range(99):
-    print(number, "=" ,hex(number))
+    print("{} = {}".format(number, hex(number)))
+
+    
